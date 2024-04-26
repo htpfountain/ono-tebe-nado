@@ -1,1 +1,1 @@
-https://github.com/htpfountain/ono-tebe-nado
+https://github.com/htpfountain/ono-tebe-nado.git
