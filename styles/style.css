@@ -33,6 +33,10 @@
 }
 
 .header__link {
+  text-underline-offset: 3px;
+}
+
+.header__link_active {
   text-decoration: none;
 }
 
@@ -46,6 +50,7 @@
   color: #000;
   font-size: 18px;
   line-height: 135%;
+  text-underline-offset: 3px;
 }
 
 .header__address {
@@ -92,15 +97,15 @@
 }
 
 .aligned-text_center {
-  display: flex;
   justify-content: center;
-  padding-top: 12px;
+  padding-top: 20px;
+  line-height: 1;
 }
 
 .aligned-text_right {
-  display: flex;
   justify-content: flex-end;
-  padding-top: 4px;
+  padding-top: 20px;
+  line-height: 1;
 }
 
 .letter-spacing-extended {
@@ -116,7 +121,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 50px 0px;
+  padding: 7px 50px;
 }
 
 .cover__description-text {
@@ -153,27 +158,25 @@
 }
 
 .lots__heading {
-  display: block;
   padding-left: 40px;
   color: #000;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-
 }
 
 .lots__card-list {
   display: flex;
   justify-content: center;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 .lots__card-list-item {
   display: flex;
-  max-width: 335px;
+  max-width: 334px;
   min-height: 563px;
   padding-top: 27px;
-  padding-bottom: 30px;
 }
 
 .card {
@@ -182,6 +185,11 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 51px 40px 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
 }
 .card-link {
   text-decoration: none;
@@ -208,31 +216,22 @@
 }
 
 .card_type_film {
-  height: 464px;
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
-  height: 464px;
   background-image:url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
-  height: 464px;
   background-image:url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .lots__look-more-link {
+  display: block;
   padding-left: 40px;
+  padding-top: 28px;
+  text-underline-offset: 3px;
   color: #000;
   font-weight: 400;
   font-size: 20px;
@@ -281,13 +280,13 @@
 .about__text {
   display: grid;
   align-items: center;
+  padding-top: 9px;
   padding-left: 7px;
   color: #000;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.00em;
-  padding-top: 9px;
 }
 
 .footer {
@@ -317,6 +316,10 @@
 }
 
 .footer__link {
+  text-underline-offset: 3px;
+}
+
+.footer__link_active {
   text-decoration: none;
 }
 
