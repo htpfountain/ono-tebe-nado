@@ -241,8 +241,8 @@
 .about {
   display: grid;
   grid-template-columns: 332px 1fr;
-  grid-template-rows: 240px 128px 180px;
-  gap: 9px;
+  grid-template-rows: 240px 128px 210px;
+  column-gap: 20px;
   padding: 35px 24px 0px;
 }
 
@@ -270,8 +270,8 @@
 .about__title {
   display: grid;
   align-self: center;
-  padding-top: 15px;
-  padding-left: 18px;
+  padding-top: 13px;
+  padding-left: 7px;
   color: #000;
   font-weight: 700;
   font-size: 40px;
@@ -286,14 +286,15 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.00em;
+  padding-top: 9px;
 }
 
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 177px 50px 88px;
+  padding: 165px 50px 88px;
 }
 
 .footer__menu {
